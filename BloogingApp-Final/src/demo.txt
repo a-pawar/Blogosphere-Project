@@ -1,0 +1,37 @@
+     <label>
+        Updated Title:
+        <input type="text" value={updatedTitle} onChange={(e) => setUpdatedTitle(e.target.value)} />
+      </label>
+      <br />
+      <label>
+        Updated Content:
+        <textarea value={updatedContent} onChange={(e) => setUpdatedContent(e.target.value)} />
+      </label>
+      <br />
+      <button onClick={handleUpdate}>Update</button>
+
+
+
+
+  #dfdfdf, #0c0c0c, #646363
+
+
+  .dm-sans-<uniquifier> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mynerve-regular {
+  font-family: "Mynerve", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

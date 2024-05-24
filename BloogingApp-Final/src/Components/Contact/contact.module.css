@@ -1,0 +1,211 @@
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  line-height: 7vh;
+
+}
+
+.center h2 {
+  color: cadetblue;
+}
+
+@media(max-width:650px) {
+  .center {
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 4vh;
+  }
+
+  .center h1 {
+    margin-bottom: 15px;
+  }
+} */
+
+.contact form div {
+  display: flex;
+}
+
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+}
+
+.contact input {
+  margin-bottom: 20px;
+  /* margin-right: 10px; */
+}
+
+.contactdivinput {
+  margin-right: 10px;
+}
+
+.contact form {
+  padding: 30px;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contactdiv {
+    width: 100%
+  }
+
+  .contact form div {
+    flex-direction: column;
+  }
+
+  .contact input {
+    width: 100%;
+  }
+
+}
+
+.common__section {
+  background: linear-gradient(rgba(34, 34, 47, 0.6), rgba(25, 25, 36, 0.6)),
+    url("./contact-us.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+
+}
+
+
+
+/* hero */
+
+
+.hero .container {
+  /* padding-top: 8%; */
+  padding-top: 10vh;
+}
+
+/* bootstrap */
+.shadow {
+  border-color: #323436;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(32, 36, 39, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(34, 35, 37, 0.6);
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.color {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 20px;
+
+}
+
+.customStyles {
+  color: white;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+
+}
+
+.heading {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+
+}
+
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+form span {
+  font-size: 14px;
+  color: grey;
+}
+
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+form .box:nth-child(1) {
+  border-left: none;
+}
+
+form h4 {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  form .box {
+    border-left: none;
+  }
+
+  form input {
+    width: 100%;
+  }
+}

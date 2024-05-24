@@ -1,0 +1,160 @@
+.section {
+  padding: 15px;
+  padding-left: 15px;
+  margin: auto;
+  max-width: 60%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  /* font-weight: bolder; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  align-self: center;
+  height: auto;
+
+
+}
+
+
+
+p img {
+  max-height: 70vh;
+  max-width: 70vw;
+
+
+}
+
+
+.blog {
+  max-width: 60%;
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  font-size: large;
+  border: 10px black solid;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  padding: 30px;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+
+.input {
+  min-height: 50px;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 1em;
+  margin-bottom: 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blogbtn {
+  text-align: end;
+}
+
+.content1 {
+  margin-top: 5px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  min-height: 250px;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  width: 100px;
+  height: 50px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.subbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.row {
+  margin-bottom: 5px;
+  margin-top: 4vh;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.head1 {
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+
+.head2 {
+  font-family: "Sedan SC", serif;
+  font-weight: bolder;
+  font-size: 40px;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+}
+
+.blog h2 {
+  margin-bottom: 5vh;
+}
+
+.remove {
+  background-color: rgb(48, 9, 9);
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  width: 70px;
+  height: 40px;
+  font-size: 1rem;
+  margin-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.update {
+  background-color: rgb(59, 203, 76);
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  width: 80px;
+  height: 40px;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+@media(max-width:650px) {
+  .blog {
+    max-width: 90%;
+  }
+
+  .blog p {
+    margin-top: 10px;
+    line-height: 20px;
+    white-space: pre-line;
+  }
+
+  .section {
+    max-width: 90%;
+  }
+}

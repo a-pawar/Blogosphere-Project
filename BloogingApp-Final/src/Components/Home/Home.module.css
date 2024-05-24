@@ -1,0 +1,79 @@
+.head1 {
+  margin-top: 5px;
+  padding-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  color: #dfdfdf;
+
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+  /* animation: colorchange 20s infinite alternate; */
+}
+
+.margintop {
+  margin: 5px;
+}
+
+@keyframes colorchange {
+  0% {
+
+    color: white;
+  }
+
+  10% {
+
+    color: #8e44ad;
+  }
+
+  20% {
+
+    color: #1abc9c;
+  }
+
+  30% {
+
+    color: #d35400;
+  }
+
+  40% {
+
+    color: blue;
+  }
+
+  50% {
+
+    color: #34495e;
+  }
+
+  60% {
+
+    color: blue;
+  }
+
+  70% {
+
+    color: #2980b9;
+  }
+
+  80% {
+
+    color: #f1c40f;
+  }
+
+  90% {
+
+    color: #2980b9;
+  }
+
+  100% {
+
+    color: pink;
+  }
+}
+
+#colorblack {
+  background-color: #0c0c0c;
+}
